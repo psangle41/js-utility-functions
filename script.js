@@ -58,7 +58,7 @@ const filtered = arr.myFilter(function (data) {
 const mapped = arr.myMap(function (data) {
   return data + this.val;
 }, obj);
-//These callbacks function doesn't work for arrow function
+//These callbacks doesn't work for arrow function
 
 console.log(filtered);
 console.log(mapped);
